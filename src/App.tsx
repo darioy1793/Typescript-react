@@ -1,6 +1,8 @@
 //componente react -> rafc + tab
 
-import { HookUseEffect } from "./typescript/HookUseEffect";
+import { Usuarios } from "./typescript/Usuarios";
+
+//import { HookUseEffect } from "./typescript/HookUseEffect";
 //import { Contador } from "./typescript/Contador";
 
 //import { Funciones } from "./typescript/Funciones";
@@ -17,7 +19,8 @@ export const App = () => {
         {/* <Interface/> */}
         {/* Funciones */}
        {/*  <Contador/> */}
-       <HookUseEffect/>
+     {/*   <HookUseEffect/> */}
+     <Usuarios/>
 
     </div>
   )
